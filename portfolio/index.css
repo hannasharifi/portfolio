@@ -1,0 +1,393 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 72, 72);
+  text-align: center;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+
+  p {
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+
+
+  h2 {
+    text-align:center;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      max-width: 110%; 
+      overflow-x: hidden; /
+    }
+  
+  }
+  
+
+  nav {
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  
+  nav li a {
+    font-size: 14px; 
+  }
+  
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    padding: 15px 20px;
+  }
+  
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  header {
+    text-align: center;
+    margin-left: 0px;
+    letter-spacing:0px;
+  }
+  
+  h1 {
+    font-size: 100px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    letter-spacing:0px;
+    margin: 10;
+    margin-top: 200px; 
+    padding: 0; 
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px; 
+    margin-top: 100px; 
+  }
+}
+  
+  section {
+    padding: 0px;
+    letter-spacing:0px;
+    text-align: center;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  li {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  h4 {
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+  }
+
+  #about {
+    padding: 40px;
+  }
+  
+  h3 {
+    font-size:70px;
+    color: rgb(0, 0, 0);
+  }
+  
+
+  footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+
+  .footertext {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+ 
+  #skillsList {
+    color: rgb(0, 0, 0);
+    overflow:visible;
+    white-space: nowrap; 
+    
+  }
+
+  #contact {
+    text-align:center;
+    font-size: 50px;
+  }
+  
+  #skillsList li {
+    display: inline; 
+    font-size: 25px;
+    font-family: arial;
+     margin-right: 20px; 
+    letter-spacing: 0px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  
+  #skillsList {
+    animation: marquee 10s linear infinite; 
+  }
+  
+
+  #projects {
+    color: rgb(0, 0, 0);
+  }
+
+  footer {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    text-align: left;
+  }
+
+
+  nav {
+    color: rgb(0, 0, 0);
+
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+  }
+
+  nav li {
+    padding: 10px 20px; 
+  }
+
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px; 
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+}
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  section {
+    position: relative;
+    animation: floating 3s ease-in-out infinite;
+  } 
+
+ nav {
+  background-color: rgb(255, 72, 72);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: top 0.3s; 
+}
+
+h5 {
+  font-size: 25px;
+  letter-spacing: 0px;
+  margin-bottom: -60px;
+}
+
+#projecttext{
+  font-size: 20px;
+  letter-spacing: 0px;
+  margin-top: -60px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  padding: 10px 20px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.scrolling {
+  top: 0;
+}
+
+#projects {
+  padding: 10px;
+}
+
+#projectsList {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.project-item {
+  width: 300px; 
+  margin: 20px;
+  margin-top: -120px;
+  text-align: center;
+}
+
+.project-text {
+  margin-top: -140px;
+}
+
+.project-item img {
+  width: 100%; 
+  max-width: 100%; 
+  border-radius: 5px; 
+}
+
+
+@media (min-width: 768px) {
+  .project-item {
+    width: 600px; 
+  }
+
+  .project-item img {
+    width: 100%;
+    max-width: 600px; 
+  }
+}
+
+footer {
+  position: relative;
+  text-align: center;
+}
+
+#scrollUpButton {
+  display: none;
+  position: absolute;
+  bottom: 85px;
+  font-weight: bold;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 15px;
+  background-color:transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  border: 2px solid black; 
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#scrollUpButton:hover {
+  background-color: #b30000;
+}
+
+#headertext {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#about, #skills, #projects, #contact {
+  padding-bottom: 100px;
+
+}
+
+
+
